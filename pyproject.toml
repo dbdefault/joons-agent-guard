@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "joons-agent-guard"
+version = "0.1.0"
+description = "Durable SQLite-backed locks, circuit breaker and replay guard for AI agents and automation"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["ai-agents", "automation", "sqlite", "concurrency", "idempotency", "circuit-breaker"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+joons-agent-guard = "joons_agent_guard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+joons_agent_guard = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

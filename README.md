@@ -2,6 +2,8 @@
 
 Durable safety primitives for AI agents and automation.
 
+> Part of the [JOONS ecosystem](https://github.com/dbdefault/joons-ecosystem): MCP-Based AI Infrastructure Ecosystem.
+
 Korean: [README.ko.md](README.ko.md)
 
 [![CI](https://github.com/dbdefault/joons-agent-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/dbdefault/joons-agent-guard/actions/workflows/ci.yml)

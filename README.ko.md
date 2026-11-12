@@ -2,6 +2,8 @@
 
 AI 에이전트와 자동화 작업을 위한, 꺼져도 사라지지 않는 안전장치 모음입니다.
 
+> [JOONS 생태계](https://github.com/dbdefault/joons-ecosystem)(MCP 기반 AI 인프라 생태계)의 일부입니다.
+
 English: [README.md](README.md)
 
 [![CI](https://github.com/dbdefault/joons-agent-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/dbdefault/joons-agent-guard/actions/workflows/ci.yml)
